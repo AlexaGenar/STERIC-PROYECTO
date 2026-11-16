@@ -12,6 +12,7 @@ export default function ProductsPage() {
   return (
     <>
       <PageIntro
+        breadcrumb="Productos"
         eyebrow="Equipamiento especializado"
         title="Soluciones y productos"
         highlight="para laboratorios"

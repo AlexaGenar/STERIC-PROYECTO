@@ -37,6 +37,7 @@ export default function AboutPage() {
   return (
     <>
       <PageIntro
+      breadcrumb="Quiénes somos"
         eyebrow="Quiénes somos"
         title="Experiencia que genera"
         highlight="confianza."

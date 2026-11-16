@@ -21,6 +21,7 @@ export default function CollaboratorsPage() {
   return (
     <>
       <PageIntro
+        breadcrumb="Colaboradores"
         eyebrow="Nuestro equipo"
         title="Personas que hacen posible"
         highlight="cada solución"

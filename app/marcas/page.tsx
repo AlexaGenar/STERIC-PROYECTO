@@ -38,6 +38,7 @@ export default function BrandsPage() {
   return (
     <>
       <PageIntro
+        breadcrumb="Marcas"
         eyebrow="Representaciones especializadas"
         title="Fabricantes que respaldan"
         highlight="la precisión"

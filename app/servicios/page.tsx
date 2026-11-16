@@ -6,6 +6,7 @@ import { SectionHeading } from '@/components/section-heading'
 import { ServicesCatalog } from '@/components/services-catalog'
 import { CustomerExperiences } from '@/components/customer-experiences'
 
+
 export const metadata: Metadata = {
   title: 'Servicios',
   description: 'Pruebas de salas limpias, validación de equipos y asesoría de ingeniería para laboratorios y hospitales.',
@@ -32,7 +33,9 @@ const qualityPillars = [
 export default function ServicesPage() {
   return (
     <>
+    
       <PageIntro
+        breadcrumb="Servicios"
         eyebrow="Ingeniería & validación"
         title="Nuestros"
         highlight="servicios"
